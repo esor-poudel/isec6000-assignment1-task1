@@ -9,6 +9,7 @@ secure devops assignment 1 github repo
 1) for setting kubernet cluster, first create a project with proper namespace so that it will be understandable for future use
    dont use name as abc, 123 etc
 2) once the project is created activate cloud shell 
+   <img scr="/assets/images/shell.png" height="50" width="50">
 3) Activate kubernetes engine API by searching as kubernetes engine
    (Note: you can read more about it <a href="https://cloud.google.com/kubernetes-engine/docs/reference/rest" target="_blank"> here </a>  )
 4) create cluster by navigating kubernetes engine section and click create cluster
@@ -20,9 +21,14 @@ secure devops assignment 1 github repo
  Its time to connect the cluster to local environment 
 
  1) navigate to the cluster and click connect to connect the cluster 
+    
     or copy and paste the following command to cloud shell 
+
     gcloud container clusters get-credentials {$clusterName} --region {$location} --project {$clusterID}
 
-    replace the clusterName, Location and clusterId as your configuration
+    replace the clusterName, Location and clusterId as per your configuration
+
+2) 
+
 
  
