@@ -15,7 +15,6 @@ secure devops assignment 1 github repo
 4) create cluster by navigating kubernetes engine section and click create cluster
 5) provide a appropriate name and choose the location for configuration
    (Note: It will take about 5 to 10 min to complete the process)
-6) once the cluster is created it will look like this 
 
 # Connecting the cluster 
  Its time to connect the cluster to local environment 
@@ -28,7 +27,6 @@ secure devops assignment 1 github repo
 
     replace the clusterName, Location and clusterId as per your configuration
 
-2) 
 
 
  
